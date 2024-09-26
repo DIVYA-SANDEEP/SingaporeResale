@@ -2,8 +2,8 @@
 
 This project aims to predict the resale prices of Housing and Development Board (HDB) flats in Singapore using machine learning techniques. The project involves end-to-end processes, from data collection and preprocessing to model development, evaluation, and deployment in a user-friendly Streamlit web application.
 
-**Project Overview
-**
+**Project Overview**
+
 This project encompasses the following key stages:
 Python Scripting, Data Preprocessing, EDA, Machine Learning, and Streamlit
 
