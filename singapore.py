@@ -214,10 +214,10 @@ if selected == "HOME":
     st.markdown('''  <h5>Model Selection and Training <br>     
                 <li> Cross-validated different regression models (e.g., Linear Regression, Random Forest Regressor, etc.) <br>              
                 <li> Evaluated performance metrics to choose the best model for predicting resale price. <br>           
-                <li> Selected the DecisionTree Regressor based on its superior performance in terms of R-squared 
+                <li> Selected the RandomForest Regressor based on its superior performance in terms of R-squared 
                 and Mean Squared Error metrics.''',unsafe_allow_html=True)
     
     st.markdown('''  <h5>Model Deployment <br>     
-                <li> Model Serialization: Saved the trained DecisionTree Regressor model using pickle for later use in the application. <br>              
+                <li> Model Serialization: Saved the trained RandomForest Regressor model using joblib for later use in the application. <br>              
                 <li> Dashboard Development: Built an interactive dashboard using Streamlit to allow users to input 
                 relevant features and get predictions on flat resale prices.<br>''',unsafe_allow_html=True)
